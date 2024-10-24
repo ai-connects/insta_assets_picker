@@ -227,7 +227,7 @@ class _InnerCropViewState extends State<InnerCropView>
             maximumScale: 10,
             aspectRatio: widget.controller.aspectRatio,
             disableResize: true,
-            backgroundColor: widget.theme!.canvasColor,
+            backgroundColor: Colors.black,
             initialParam: widget.cropParam,
             size: widget.asset.orientatedSize,
             child: widget.asset.type == AssetType.image
