@@ -26,7 +26,7 @@ dependencies:
   wechat_assets_picker:
     git:
       url: https://github.com/ai-connects/flutter_wechat_assets_picker.git
-      ref: main
+      ref: stage
 
   # match with wechat_assets_picker package
   photo_manager: ^3.0.0
